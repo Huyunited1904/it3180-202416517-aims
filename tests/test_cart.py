@@ -17,6 +17,20 @@ class TestCart(unittest.TestCase):
 
         self.assertFalse(result)
         self.assertEqual(len(cart.items), 20)
+    def test_discount_calculation(self):
+        cart = Cart()
+
+    # Giả lập tổng tiền giỏ hàng là 100$
+        cart.total_cost = lambda: 100
+
+    # Giảm 20% thì phải còn 80$
+        self.assertEqual(
+        cart.total_cost_with_discount(20), 80
+    )
+
+    # Giảm 150% là không hợp lệ
+        with self.assertRaises(ValueError):
+            cart.total_cost_with_discount(150)    
 
 
 if __name__ == "__main__":
