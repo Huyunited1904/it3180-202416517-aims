@@ -3,6 +3,10 @@
 Tất cả thay đổi đáng chú ý của dự án AIMS-mini được ghi lại tại đây.
 
 ## [Unreleased]
+## [1.0.1] - 2026-11-07
+
+### Fixed
+- Sửa lỗi tìm kiếm DVD theo tên phân biệt chữ hoa và chữ thường.
 
 ## [1.0.0] - 2026-11-07
 
