@@ -4,6 +4,9 @@ Tất cả thay đổi đáng chú ý của dự án AIMS-mini được ghi lạ
 
 ## [Unreleased]
 
+### Added
+- Sắp xếp DVD theo tiêu đề bằng `sort_by_title()`.
+- Sắp xếp DVD theo giá tiền bằng `sort_by_cost()`.
 ## [1.0.0] - 2026-11-07
 
 ### Added
