@@ -8,3 +8,9 @@ Bài thực hành Git & GitHub — IT3180.
 
 ## Giới thiệu
 Ứng dụng dòng lệnh Python quản lý giỏ hàng DVD.
+
+## Yêu cầu
+- Python >= 3.10
+
+## Chạy chương trình
+python main.py
